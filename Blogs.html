@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title>Divingtech</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css"
+    </head>
+    <body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/logo2.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class= "fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Blogs.html">BLOGS</a></li>
+                    <li><a href="Reviews.html">REVIEWS</a></li>
+                    <li><a href="tech%20Questions%20&%20Answers.html">Q/A</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>Our Blogs</h1>   
+    </section>
+        
+ <!---------- Our Blogs content --------->
+    
+<section class="Our Blogs">
+    
+    <div class="row">
+        <div class="Blogs-col">
+            <h1>Right to repair and its significance in India</h1>
+            <p>Right to repair is the legal concept that allows consumers to repair the products they buy or choose their own service providers instead of going through the manufacturer.The Right to Repair refers to government legislation that is intended to allow consumers the ability to repair and modify their own consumer electronic devices, where otherwise the manufacturer of such devices require the consumer to use only their offered services.</p>
+            <a href=""class="hero-btn red-btn">READ NOW</a>
+        </div>
+        <div class="Blogs-col">
+            <img src="Images/_105290691_mobilephonesgetty.jpg">
+        </div>
+    </div>
+        
+        
+        </section>        
+        
+        
+
+        
+    <!-------- BLOGS -------->
+<section class="BLOGS">
+     <h1>Blogs we offer</h1>
+    <p>networking,recent events in the tech industry,helpful guides,etc.</p>
+        
+    <div class="row">
+        <div class="BLOGS-col">
+            <h3>5G and its improvements in India</h3>
+            <p>5G can be significantly faster than 4G, delivering up to 20 Gigabits-per-second (Gbps) peak data rates and 100+ Megabits-per-second (Mbps) average data rates. 5G has more capacity than 4G. 5G is designed to support a 100x increase in traffic capacity and network efficiency. 5G has lower latency than 4G.with 5G you can also enjjoy holographic display and stream them anywhere on social media on the go.However ofcourse 5G has its enviornmental,economic,techmical cons too!.</p>
+        </div>
+        <div class="BLOGS-col">
+            <h3>why you should prefer a midranger rather than a flagship smartphone in 2022?</h3>
+            <p>Earlier, flagship smartphones were consider to be peek performing devices, but since 2020 the mirangers(20-30k) started to lea beter than flagships an the onl reason for that was flagships lacked in battery mileage and heated up like crazy also had thermal throttling issues it started with Samsung's galax s20 series that came with exynos 990 and even last year 2021 the Oneplus 9 pro that came with Qualcomm Snapragon 888 or 888+ had terrible issues, though performance on flagshhips is good but the issues can be a big dealbreaker hence this why you should preffer a midranger because ofcourse now the performance has become good but they actually exel in all these areas.</p>
+        <div class="BLOGS-col">
+            <h3>wireless charging a gimmick?</h3>
+            <p>wireless charging might look like a posh feature but it might be nothing more than a gimmick because it is not truly wireless charging because charging puck has wire attached to it an also you have to keep it in correct position.!WIRELESS CHARGERS ALSO HEAT UP PHONES!</p>
+    </div> 
+        
+        </section>
+        
+
+            
+    
+        
+ <!-------- Antivirus -------->
+    
+<section class="Antivirus">
+     <h1> what are antivirus? what are the best?</h1>
+     <p>An antivirus product is a program designed to detect and remove viruses and other kinds of malicious software from your computer or laptop.</p>
+    
+    <div class="row">
+        <div class="Antivirus-col">
+            <img src="Images/download.jpg">
+             <div>
+                 <p>Malwarebytes(free) is an anti-malware software for Microsoft Windows, macOS, Chrome OS, Android, and iOS that finds and removes malware.</p>
+                 <h3>Malwarebytes free version</h3>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star-o"></i>
+            </div>    
+        </div>
+        <div class="Antivirus-col">
+            <img src="Images/unnamed-54d0b4ca75464901ba1bc7d336dda541.jpg">
+             <div>
+                 <p>McAfee Corp., formerly known as McAfee Associates, Inc. from 1987 to 1997 and 2004 to 2014, Network Associates Inc. from 1997 to 2004, and Intel Security Group from 2014 to 2017, is an American global computer security software company headquartered in San Jose, California.</p>
+                 <h3>McaFee</h3>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star-half-o"></i>
+            </div>    
+        </div>
+    </div>
+    
+            </section>
+            
+        
+    
+
+            
+            
+            
+            
+            
+            
+            
+                   
+        
+        
+       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+ <!--------Javascript for Toggle menu-------->
+ <script>
+     
+     var navLinks = document.getElementById("navLinks");
+     function showMenu(){
+         navLinks.style.right = "0";
+     }
+     function hideMenu(){
+         navLinks.style.right = "-200px";
+     }
+         
+        </script>       
+        
+    </body>        
+    </html>
